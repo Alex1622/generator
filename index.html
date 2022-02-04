@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="site-page">
+    <div class="left-side">
+        <div>
+            <div>
+                <span class="title"><h2>Border radius</h2></span>
+                <div class="border-radius">
+                    <p><input class="all" type="range" min="0" max="200" value="0" step="1"> All</p>
+                    <p><input class="tl" type="range" min="0" max="200" value="0" step="1"> Top Left</p>
+                    <p><input class="tr" type="range" min="0" max="200" value="0" step="1"> Top Rigth</p>
+                    <p><input class="br" type="range" min="0" max="200" value="0" step="1"> Bottom Rigth</p>
+                    <p><input class="bl" type="range" min="0" max="200" value="0" step="1"> Bottom Left</p>
+                </div>
+            </div>
+            <div>
+
+            </div>
+            <div>
+                <span class="title"><h2>Border</h2></span>
+                <div class="border-radius">
+                    <p><input class="bw" type="range" min="0" max="50" value="0" step="1"> Border Width</p>
+                </div>
+                <div class="border">
+                    <p>Style:</p>
+                    <select class="border-style">
+                        <option value="solid">Solid</option>
+                        <option value="dotted">Dotted</option>
+                        <option value="dashed">Dashed</option>
+                        <option value="double">Double</option>
+                        <option value="groove">Groove</option>
+                        <option value="ridge">Ridge</option>
+                        <option value="inset">Inset</option>
+                        <option value="outset">Outset</option>
+                        <option value="hidden">Hidden</option>
+                        <option value="none">None</option>
+                    </select>
+                </div>
+                <div class="bg-color">
+                    <p><input class="bc" type="color"> Border Color</p>
+                    <p><input class="bgc" type="color"> Background Color</p>
+                </div>
+            </div>
+            <div>
+                <span class="title"><h2>Transform</h2></span>
+                <div class="border-radius">
+                    <p><input class="scale" type="range" min="0.1" max="2" value="1" step="0.1"> Scale</p>
+                    <p><input class="rotate" type="range" min="0" max="360" value="0" step="1"> Rotate</p>
+                    <p><input class="translateX" type="range" min="-50" max="50" value="0" step="1"> Translate X</p>
+                    <p><input class="translateY" type="range" min="-50" max="50" value="0" step="1"> Translate Y</p>
+                    <p><input class="skewX" type="range" min="-90" max="90" value="0" step="1"> Skew X</p>
+                    <p><input class="skewY" type="range" min="-90" max="90" value="0" step="1"> Skew Y</p>
+                </div>
+            </div>
+            <div>
+                <div class="border-radius">
+                    <span class="title"><h2>Box-Shadow</h2></span>
+                    <p><input class="shiftr" type="range" min="-50" max="50" value="5" step="1"> Shift right</p>
+                    <p><input class="shiftd" type="range" min="-50" max="50" value="5" step="1"> Shift down</p>
+                    <p><input class="spread" type="range" min="-30" max="50" value="5" step="1"> Spread</p>
+                    <p><input class="blur" type="range" min="0" max="50" value="5" step="1"> Blur</p>
+                    <div class="bg-color">
+                        <p><input class="shadow-color" type="color"> Color</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="right-side">
+        <div>
+            <div class="block">
+
+            </div>
+            <div>
+                <textarea disabled></textarea>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
